@@ -1,0 +1,13 @@
+env="dev"
+organization_unit="core"
+network_prefix="10.112"
+domain_name="yros.cloud"
+aws_region="us-east-1"
+is_shared=true
+eks_instance_type="t3a.large"
+eks_node_disk_size="20"
+eks_enable_spot=true
+eks_nodes_desired_size="3"
+eks_nodes_scale_min_size="3"
+eks_nodes_scale_max_size="6"
+infra_email_notification="platform@yros.cloud"
